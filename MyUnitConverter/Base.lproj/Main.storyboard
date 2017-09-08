@@ -80,10 +80,18 @@
                                 <rect key="frame" x="125" y="127" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Convert"/>
+                                <connections>
+                                    <action selector="didTapConvert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iH8-OD-DMk"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="CalculationLabel" destination="sBO-OC-h9p" id="VL4-Xa-FoT"/>
+                        <outlet property="CelsiusLabel" destination="qRH-3N-wPg" id="EUw-hd-HbW"/>
+                        <outlet property="FarhenheitLabel" destination="WP4-Xr-JMa" id="6ze-yd-Umg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
